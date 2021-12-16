@@ -1,0 +1,27 @@
+{
+    "name": "Arrale-Theme",
+    "displayName": "Arrale-Theme",
+    "description": "Arrale-Theme is Help For You to Use A beutifull Theme all OS version, etc., ----> Thanks For use👍😊",
+    "icon": "log.png",
+   "publisher": "AbdiaziizArrale",
+   "version": "0.0.1",
+   "engines": {
+       "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Arrale-Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Arrale-Theme-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "fast-xml-parser": "^4.0.0-beta.8"
+    }
+}
